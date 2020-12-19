@@ -67,12 +67,8 @@ nav{
   animation: introani;
   animation-duration: 2s;
 }
-.btn-outline-dark{
-  margin-top: 12%;
-  margin-left: 27%;
-  width: 8%;
-  animation: introani;
-  animation-duration: 2s;
+.hi{
+  font-size: 5rem;
 }
 @keyframes introani {
   from{
@@ -95,9 +91,6 @@ li{
   color: white;
   font-size: 1.7rem;
   padding: 3% 5%;
-}
-a{
-  text-decoration: none;
 }
 .newb{
   margin: auto;
@@ -193,7 +186,7 @@ a{
 }
 footer > a{
   color: white;
-  margin-top: 5px;;
+  margin-top: 5px;
 }
 footer > p{
   overflow: hidden;
@@ -239,14 +232,13 @@ footer > p{
     position: relative;
     color: #51ADCF;
     margin: auto;
-    font-size: 4rem;
+    font-size: 2rem;
+  }
+  .hi{
+    font-size: 3rem;
   }
   .b{
     font-size: 2rem;
-  }
-  .btn-outline-dark{
-    width: 40%;
-    margin-bottom: 5%;
   }
   /* Section 2: About me */
   .second{
